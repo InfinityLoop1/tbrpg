@@ -21,4 +21,5 @@ item-box {
   width: 100px;
   height: 100px;
   background-color: gray;
+  border-radius: 10%;
 }
