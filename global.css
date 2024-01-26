@@ -44,10 +44,10 @@ progress {
   background: #444;
   border-radius: 14px;
 }
-progress::-moz-progress-bar {
+/*progress::-moz-progress-bar {
   border-radius: 12px;
   background: orange;
-}
+}*/
 /* webkit */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   progress {
@@ -57,10 +57,11 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-bar {
     background: transparent;
 }  
-progress::-webkit-progress-value {  
+/*progress::-webkit-progress-value {  
   border-radius: 12px;
   background: orange;
-}
-#health {
+}*/
+#health::-mos-progress-bar, #health::-webkit-progress-value {
+  border-radius: 12px;
   background: red;
 }
