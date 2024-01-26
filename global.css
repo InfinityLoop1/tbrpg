@@ -47,7 +47,6 @@ progress {
 progress::-moz-progress-bar {
   border-radius: 12px;
   background: orange;
-
 }
 /* webkit */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -61,4 +60,7 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {  
   border-radius: 12px;
   background: orange;
+}
+#health {
+  background: red;
 }
