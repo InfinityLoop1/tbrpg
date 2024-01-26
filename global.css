@@ -3,3 +3,21 @@ body {
   color: #FFFFFF;
   font-family: sans-serif;
 }
+
+#inventory {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 50%
+  height: 50%;
+}
+
+item-box {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
