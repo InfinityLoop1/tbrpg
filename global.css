@@ -12,7 +12,7 @@ body {
   position: fixed;
   top: 0px;
   right: 0px;
-  width: 50%
+  width: 50%;
   height: 50%;
   padding: 20px;
   background-color: #202020;
@@ -29,7 +29,7 @@ item-box {
   position: fixed;
   bottom: 0px;
   right: 0px;
-  width: 50%
+  width: 50%;
   height: 50%;
   padding: 20px;
   background-color: #202020;
